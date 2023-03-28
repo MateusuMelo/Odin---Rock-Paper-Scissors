@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The odin | Pedra papel ou tesoura</title>
+    <script src="Pedra_papel_tesoura\game_core.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>    
+    <div class="background">
+        <div class="container-game">
+            <div class="Menupronto">
+                <h1>Pedra Papel e Tesoura</h1>
+                <div id="scoreboard">
+                    <h2>Placar</h2>
+                    <h4 id="narrador"></h4>
+                    <p>Você: <span id="player-score">0</span></p>
+                    <p>CPU: <span id="cpu-score">0</span></p>
+                </div>
+                <div id="round">
+                <h2>Rodada <span id="round-number">1</span></h2>
+                <p>Escolha sua jogada:</p>
+                <div id="choices">
+                    <button id="rock" onclick="Epedra()">Pedra</button>
+                    <button id="paper" onclick="Epapel()">Papel</button>
+                    <button id="scissors"onclick = "Etesoura()">Tesoura</button>
+                </div>
+                <p id="result"></p>
+                <button id="next-round" onclick="PlayAgain()" disabled>Jogar novamente</button>
+                </div>
+            </div>
+    </div>
+</body>
+</html>

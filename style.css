@@ -1,0 +1,103 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+.background{
+    background-image: url("images/Background.jpg");
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;   
+    height: 100%; 
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+
+} 
+.container-game{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 56px;
+    padding: 10px;
+    
+    position: absolute;
+    width: 760px;
+    height: 655px;
+
+    left: calc(50% - 655px/2 - 3px);
+    top: calc(50% - 760px/2 + 5.5px);
+
+    background: rgba(165, 165, 165, 0.24);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+}
+Menupronto{
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 50px;
+  }
+  
+  #scoreboard {
+    margin-top: 50px;
+  }
+  
+  #scoreboard h2 {
+    margin-bottom: 10px;
+  }
+  
+  #scoreboard p {
+    margin-bottom: 5px;
+  }
+  
+  #scoreboard span {
+    font-weight: bold;
+  }
+  
+  #round {
+    margin-top: 50px;
+  }
+  
+  #round h2 {
+    margin-bottom: 10px;
+  }
+  
+  #round p {
+    margin-bottom: 5px;
+  }
+  
+  #choices {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #choices button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #result {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  #next-round {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
